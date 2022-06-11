@@ -2,18 +2,23 @@ import NavBar from "./NavBar";
 
 const Header = () => {
   return (
-    <header className='header'>
+    <header className="header">
+      <NavBar />
 
-      <NavBar/>
-      
-      <h2>Our Company Name</h2>
+      <div className="header-writings">
+        <h2>WEAVER</h2>
 
-      <h1>Our Mission </h1>
+        <h1>Our Mission </h1>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestias omnis architecto est ea deserunt qui inventore? Odio libero delectus, rem dolore nobis inventore explicabo ipsam minus voluptatibus dolores veniam.</p>
-      
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          molestias omnis architecto est ea deserunt qui inventore? Odio libero
+          delectus, rem dolore nobis inventore explicabo ipsam minus
+          voluptatibus dolores veniam.
+        </p>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

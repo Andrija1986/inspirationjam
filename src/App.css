@@ -19,6 +19,27 @@ body {
 }
 
 /* --------------------------------------------------------*/
+
+/*---------------------HEADER------------------------------*/
+
+.header{
+    color: white;
+    height: 35vh;
+    background-color: #00BAF0;
+    background: linear-gradient(to left, #f46b45, #eea849);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-writings{
+    position: absolute;
+    top: 60px;
+    margin: 1rem;
+    padding: 0.5rem;
+    
+}
+
+/* --------------------------------------------------------*/
+
 /* --------------------hamburger-menu----------------------*/
 
 .top-nav {
@@ -31,7 +52,7 @@ body {
     background: linear-gradient(to left, #f46b45, #eea849);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFF;
-    height: 50px;
+    height: 60px;
     padding: 1em;
     position: fixed;
   }

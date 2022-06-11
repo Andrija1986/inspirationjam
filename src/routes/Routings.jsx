@@ -1,23 +1,23 @@
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import About from "../components/About";
+import WhyUs from "../components/WhyUs";
 import Industries from "../components/Industries";
-import Insights from "../components/Insights";
-import Solutions from "../components/Solutions";
-import Blog from "../components/Blog";
-import Awards from "../components/Awards";
+import FAQ from "../components/FAQ";
+import Services from "../components/Services";
+import Testimonials from "../components/Testimonials";
+import Technology from "../components/Technology";
 
 const Routings = () => (
     <Router>
         <Header/>
         <main>
-        <About/>
-        <Awards/>
-        <Blog/>
+        <WhyUs/>
+        <Services/>
         <Industries/>
-        <Insights/>
-        <Solutions/>
+        <Technology/>
+        <Testimonials/>
+        <FAQ/>
 {/*             <Routes>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/industries" element={<Industries/>}/>

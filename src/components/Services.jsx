@@ -1,7 +1,7 @@
 import {ImBriefcase} from "react-icons/im";
 import {BiPaintRoll} from "react-icons/bi";
 import {FcMultipleDevices} from "react-icons/fc";
-import {BsFillJournalBookmarkFill} from "react-icons/bs"
+
 
 const Services = () => {
   return (

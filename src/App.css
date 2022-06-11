@@ -8,8 +8,8 @@
 
 * {
   padding: 0;
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 .header {
   color: white;
   height: 30vh;
-  background-color: #00BAF0;
+  background-color: #00baf0;
   background: linear-gradient(to left, var(--orange), var(--red));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -45,7 +45,6 @@ body {
   margin: 0.5rem;
   width: fit-content;
 }
-
 
 /* --------------------------------------------------------*/
 
@@ -181,15 +180,15 @@ section {
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
+    background-color: #00baf0;
     background: linear-gradient(to left, #f46b45, #eea849);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
+    color: #fff;
     height: 60px;
     padding: 1em;
     position: fixed;
   }
-  
+
   .name {
     height: 100%;
   }

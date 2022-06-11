@@ -11,12 +11,12 @@ const NavBar = () => {
     </label>
     <ul className="menu">
       <li><a href="#">Why Us</a></li>
-      <li><a></a>Services</li>
-      <li><a></a>Industry</li>
-      <li><a></a>Technology</li>
-      <li><a></a>Testimonials</li>
-      <li><a></a>FAQ's</li>
-      <li><a></a>Contact Us</li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Industry</a></li>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">FAQ's</a></li>
+      <li><a href="#">Contact Us</a></li>
     </ul>
     </nav>
   )

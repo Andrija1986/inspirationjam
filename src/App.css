@@ -18,43 +18,34 @@ body {
 }
 /* --------------------------------------------------------*/
 /* --------------------------header------------------------*/
-
 .header {
-  display: flex;
-  margin: 5px;
-  background-image: url("./assets/pexels-pixabay-276258.jpg");
-  background-repeat: round;
+  color: white;
+  height: 30vh;
+  background-color: #00BAF0;
+  background: linear-gradient(to left, var(--orange), var(--red));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h2,
-h1 {
-  margin-top: 10px;
-  color: black;
+.header-writings {
+  position: absolute;
+  top: 60px;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 60%;
 }
-.div-header {
-  margin-top: 20px;
-  color: black;
+.header-writings h3 {
+  margin: 0.5rem;
+  width: fit-content;
 }
-
-/* --------------------------------------------------------*/
-
-/*---------------------HEADER------------------------------*/
-
-.header{
-    color: white;
-    height: 35vh;
-    background-color: #00BAF0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.header-writings h1 {
+  margin: 0.5rem;
+  width: fit-content;
+}
+.header-writings p {
+  margin: 0.5rem;
+  width: fit-content;
 }
 
-.header-writings{
-    position: absolute;
-    top: 60px;
-    margin: 1rem;
-    padding: 0.5rem;
-    
-}
 
 /* --------------------------------------------------------*/
 
@@ -83,8 +74,30 @@ h1 {
 }
 
 .menu li a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
+  position: relative;
+  padding: 2px;
+}
+.menu li a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #145450;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+.menu li a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.menu li a:hover {
+  color: #5a463f;
 }
 
 .menu > li {
@@ -167,7 +180,6 @@ section {
     width: 100%;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     justify-content: space-between;
     background-color: #00BAF0;
     background: linear-gradient(to left, #f46b45, #eea849);
@@ -180,8 +192,6 @@ section {
   
   .name {
     height: 100%;
-=======
->>>>>>> e167728048bf8832f84d14601abba3d4bbf25896
   }
   #menu-toggle ~ .menu li {
     height: 0;

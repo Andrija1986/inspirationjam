@@ -2,7 +2,7 @@
 
 const WhyUs = () => {
   return (
-    <section className='whyus'>
+    <section id="whyus" className='whyus'>
       
      
     </section>

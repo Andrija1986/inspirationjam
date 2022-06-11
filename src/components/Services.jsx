@@ -1,10 +1,11 @@
 import {ImBriefcase} from "react-icons/im";
 import {BiPaintRoll} from "react-icons/bi";
 import {FcMultipleDevices} from "react-icons/fc";
+import {BsFillJournalBookmarkFill} from "react-icons/bs"
 
 const Services = () => {
   return (
-    <section className='services'>
+    <section id="services" className='services'>
       <div>
         <ImBriefcase/>
         <h3>Digital Strategy</h3>
@@ -13,7 +14,7 @@ const Services = () => {
         <button>More</button>
       </div>
       <div>
-          <BiPaintRoll/>
+        <BiPaintRoll/>
         <h3>Creative Marketing</h3>
         <p>Creative Marketing: Innovation distinguishes between the best. Our Creative Expert with profound imagination which is the true sign of intelligence brings you a variety of options to reality.
         </p>

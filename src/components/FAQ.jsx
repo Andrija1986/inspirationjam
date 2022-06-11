@@ -2,7 +2,7 @@ import React from 'react'
 
 const FAQ = () => {
   return (
-    <section className='faq'>FAQ</section>
+    <section id='faq' className='faq'>FAQ</section>
   )
 }
 

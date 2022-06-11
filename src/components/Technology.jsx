@@ -2,7 +2,7 @@ import React from 'react'
 
 const Technology = () => {
   return (
-    <section className='technology'>Visaka</section>
+    <section id='technology' className='technology'>Visaka</section>
   )
 }
 

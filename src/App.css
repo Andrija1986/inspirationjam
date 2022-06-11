@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@300&display=swap");
+
 :root {
   --orange: #fb9a17;
   --baronial_brown: #5a463f;
   --dark_grayish_magenta: #3c353c;
   --green: #145450;
   --red: #fb050b;
+  font-family: "Lora", serif;
 }
 
 * {
@@ -13,14 +16,14 @@
 }
 
 body {
-  background-color: var(--green);
+  /* background-color: white; */
   color: var(--orange);
 }
 /* --------------------------------------------------------*/
 /* --------------------------header------------------------*/
 .header {
   color: white;
-  height: 30vh;
+  height: 50vh;
   background-color: #00baf0;
   background: linear-gradient(to left, var(--orange), var(--red));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -160,7 +163,21 @@ body {
 section {
   width: 100%;
   height: 350px;
-  border: 1px solid white;
+  border: 1px solid black;
+}
+
+/* ---------------------------------------------------------*/
+/* -----------------------technology------------------------*/
+.technology {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.top-icons,
+.bottom-icons {
+  font-size: 9rem;
+  justify-self: center;
+  align-self: center;
 }
 
 /* --------------------------------------------------------*/

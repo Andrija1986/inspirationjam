@@ -1,10 +1,10 @@
-import logo from "../assets/horizontal_on_white_by_logaster (7).png"
+import logo from "../assets/horizontal_on_white_by_logaster__7_-removebg-preview.png"
 
 const NavBar = () => {
   return (
     <nav className="top-nav">
     <div>
-    <img src={logo} alt="Logo" />
+    <img src={logo} className="logo" alt="Logo" />
     </div>
     <input id="menu-toggle" type="checkbox" />
     <label className='menu-button-container' htmlFor="menu-toggle">

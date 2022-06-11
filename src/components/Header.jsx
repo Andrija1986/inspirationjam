@@ -1,47 +1,17 @@
-import { NavLink } from 'react-router-dom'
+import NavBar from "./NavBar";
 
 const Header = () => {
   return (
     <header className='header'>
-      <ul>
-        <NavLink
-          to='/'
-          style={({ isActive }) => ({
-            color: isActive && 'blue',
-            pointerEvents: isActive && 'none',
-          })}>
-          <li>Logout</li>
-        </NavLink>
 
-        <NavLink
-          to='/about'
-          style={({ isActive }) => ({
-            color: isActive && 'blue',
-            pointerEvents: isActive && 'none',
-          })}>
-          <li>About</li>
-        </NavLink>
+      <NavBar/>
+      
+      <h2>Our Company Name</h2>
 
-        <NavLink
-          to='/awards'
-          style={({ isActive }) => ({
-            color: isActive && 'blue',
-            pointerEvents: isActive && 'none',
-          })}>
-          <li>
-            Awards
-          </li>
-        </NavLink>
+      <h1>Our Mission </h1>
 
-        <NavLink
-          to='/solutions'
-          style={({ isActive }) => ({
-            color: isActive && 'blue',
-            pointerEvents: isActive && 'none',
-          })}>
-          <li>Solutions</li>
-        </NavLink>
-      </ul>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestias omnis architecto est ea deserunt qui inventore? Odio libero delectus, rem dolore nobis inventore explicabo ipsam minus voluptatibus dolores veniam.</p>
+      
     </header>
   )
 }

@@ -8,7 +8,7 @@ import { IconContext } from "react-icons";
 const Footer = () => {
   return (
     <footer className='footer'>
-      <img src="./assets/horizontal_on_white_by_logaster__7_-removebg-preview.png" alt="logo" />
+      <img src="./assets/logo.png" alt="logo" />
       <IconContext.Provider value={{className: "footer-icons"}}>
       <FaFacebookSquare/>
       <FaInstagramSquare/>

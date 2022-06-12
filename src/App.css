@@ -14,11 +14,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* 
+
 body {
-  background-color: white;
   color: var(--orange);
-} */
+}
 /* --------------------------------------------------------*/
 /* --------------------------header------------------------*/
 .header {
@@ -162,19 +161,12 @@ body {
 
 section {
   width: 100%;
-  height: 450px;
+  height: 500px;
   border: 1px solid black;
 }
 
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
-
-/* ---------------------------------------------------------*/
-/* ---------------------Testimonials------------------------*/
-.testimonials img {
-  width: 50px;
-  height: 50px;
-}
 
 /* ---------------------------------------------------------*/
 /* -----------------------technology------------------------*/
@@ -195,6 +187,40 @@ section {
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
+/* ---------------------Testimonials------------------------*/
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.start,
+.middle,
+.end {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.start img,
+.middle img,
+.end img {
+  grid-row: 1/ 2;
+  width: 50%;
+  height: 50%;
+  align-self: center;
+  justify-self: center;
+}
+.start p,
+.middle p,
+.end p {
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/* ---------------------------------------------------------*/
 /* ------------------------Customers------------------------*/
 .customers {
   display: grid;
@@ -206,32 +232,41 @@ section {
 .customers h2 {
   grid-column: 2 / 3;
   grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
 }
 .customers img {
-  height: 350px;
+  height: 400px;
   width: 350px;
   grid-column: 3 / 4;
-  grid-row: 1/4;
-}
-.customer-div {
-  grid-column: 1/ 3;
-  grid-row: 2 / 4;
-  margin: 10px;
+  grid-row: 1/ 4;
+  margin-top: 30px;
 }
 
-.customer-div p:nth-of-type(1) {
+.first-p {
   grid-column: 1/ 3;
   grid-row: 2 / 3;
   margin: 10px;
 }
 
-.customer-div p:nth-of-type(2) {
+.second-p {
   grid-column: 1/ 3;
   grid-row: 3 / 4;
   margin: 10px;
 }
+
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/* ---------------------------------------------------------*/
+/* ------------------------Contact US-----------------------*/
+
 /* ---------------------------------------------------------*/
 /* ---------------------------FAQ---------------------------*/
+#faq {
+  display: flex;
+  align-items: center;
+}
 .faqs {
   width: 100%;
   margin: 0 auto;

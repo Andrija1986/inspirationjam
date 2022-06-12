@@ -7,7 +7,7 @@
   --green: #145450;
   --red: #fb050b;
   font-family: "EB Garamond", serif;
-  --back-pale:whitesmoke;
+  --back-pale: whitesmoke;
   --back-dark: #3c353c;
 }
 
@@ -18,7 +18,7 @@
 }
 
 body {
-  color: var(--dark_grayish_magenta); 
+  color: var(--dark_grayish_magenta);
   position: relative;
 }
 
@@ -44,7 +44,7 @@ body {
   background: linear-gradient(to left, #f46b45, #eea849);
 }
 
-.words{
+.words {
   font-size: 2rem;
 }
 
@@ -68,7 +68,7 @@ body {
   padding: 1rem;
   width: 80%;
   max-height: 300px;
-  overflow:auto;
+  overflow: auto;
 }
 .header-writings h3 {
   margin: 2rem;
@@ -190,7 +190,6 @@ body {
 
 #menu-toggle:checked + .menu-button-container .menu-button {
   background: rgba(255, 255, 255, 0);
-  
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -209,7 +208,7 @@ body {
   margin-top: 3rem;
   margin-bottom: 3rem;
   padding: 1rem;
-  background-color: var(--back-pale) ;
+  background-color: var(--back-pale);
 }
 
 .reasons {
@@ -289,8 +288,8 @@ body {
   margin-bottom: 3rem;
   padding: 10px;
 }
-.servs{
-  background-color: var(--back-pale) ;
+.servs {
+  background-color: var(--back-pale);
 }
 
 .services .services-headings {
@@ -386,7 +385,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: var(--back-pale) ;
+  background-color: var(--back-pale);
 }
 .cards-wrapper .cards-heading {
   width: 75%;
@@ -397,7 +396,6 @@ body {
   text-align: center;
   font-size: 1.5rem;
 }
-
 
 .cards-wrapper .cards-container-industry {
   justify-content: center;
@@ -563,7 +561,7 @@ body {
   padding: 1rem;
 }
 
-.img-cont-cust{
+.img-cont-cust {
   width: 40%;
   margin: 0.5rem;
   padding: 10px;
@@ -580,47 +578,44 @@ body {
 /* ---------------------------------------------------------*/
 /* -------------------------Resumes-------------------------*/
 
-
 .upload-btn {
   border-radius: 5px;
   width: 100px;
   height: 50px;
-  align-self: flex-end;
+  align-self: center;
   color: var(--green);
   background-color: var(--orange);
+  text-decoration: none;
+  margin-top: 5px;
 }
 .email {
-  color: var(--red);
+  color: #fff;
 }
-.aupload {
+.upload-btn a {
   text-decoration: none;
-  color: var(--dark_grayish_magenta);
-  font-size: large;
-  font-weight: bolder;
 }
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
 /* ------------------------Contact US-----------------------*/
-.contact{
-  background:linear-gradient(to right, #f46b45, #eea849);
+.contact {
+  background: linear-gradient(to right, #f46b45, #eea849);
   margin-bottom: 0;
 }
 
-.upload-btn-wrapper{
+.upload-btn-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.forms-wrapper{
+.forms-wrapper {
   width: 100%;
   padding: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 2rem;
-
 }
 
 .resumes {
@@ -637,12 +632,14 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.resumes h3{
+.resumes h3 {
   font-size: 3rem;
+  text-align: center;
 }
 
-.resumes p{
+.resumes p {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .contact-form {
@@ -656,20 +653,19 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.contact-form h3{
+.contact-form h3 {
   font-size: 4rem;
   text-align: center;
   color: white;
-
 }
-
-.contact-form button{
-  margin:0.5rem;
+/* 
+.contact-form button {
+  margin: 0.5rem;
   padding: 5px;
   width: 100px;
   border-radius: 20px;
   font-weight: bolder;
-}
+} */
 
 form {
   display: flex;
@@ -795,15 +791,18 @@ input[type="submit"] {
   margin-top: 0;
   background: linear-gradient(to right, #f46b45, #eea849);
 }
-.div-icons{
+.div-icons {
   padding: 1rem;
-
+  display: flex;
+  justify-content: flex-end;
+  width: 30%;
 }
 
 .footer-icons {
-  width: 4rem;
+  width: 3rem;
   height: 4rem;
   align-self: center;
+  margin: 5px;
   color: var(--dark_grayish_magenta);
 }
 /* --------------------------------------------------------*/
@@ -835,7 +834,6 @@ input[type="submit"] {
     width: 100%;
     justify-content: center;
     align-items: center;
-  
   }
 
   #menu-toggle ~ .menu li {

@@ -1,7 +1,5 @@
-//import logo from "../assets/horizontal_on_white_by_logaster__7_-removebg-preview.png";
 import { FaFacebookSquare,FaInstagramSquare } from "react-icons/fa";
-
-import {AiFillLinkedin} from "react-icons/ai";
+import {BsLinkedin} from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 
@@ -13,7 +11,7 @@ const Footer = () => {
       <IconContext.Provider value={{className: "footer-icons"}}>
       <FaFacebookSquare/>
       <FaInstagramSquare/>
-      <AiFillLinkedin/>
+      <BsLinkedin/>
       </IconContext.Provider>
       </div>
     </footer>

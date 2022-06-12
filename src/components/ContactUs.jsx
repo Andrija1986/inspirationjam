@@ -29,7 +29,7 @@ const ContactUs = () => {
 
   return (
 
-  <div id='resumes' className="biggest contact">
+  <div id='contact' className="biggest contact">
     <div className="main forms-wrapper">
         <div className="resumes">
           <h3>Ready to build your career with us?</h3>
@@ -37,7 +37,7 @@ const ContactUs = () => {
           <div className="upload-btn-wrapper">
           <button 
           className='upload-btn'
-          ><a href='#' className='aupload'>Upload</a>
+          ><a href='#'>Upload</a>
           </button>
           </div>
         </div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
             <input type="email" name="user_email" />
             <label>Message</label>
             <textarea name="message" />
-            <button type="submit">Send</button>
+            <button className="upload-btn" type="submit">Send</button>
           </form>
         </div>
     </div>

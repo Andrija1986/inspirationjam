@@ -6,7 +6,7 @@ const Services = () => {
         <div className="main services">
             <div className="services-headings">
                 <h1 className="services-h2">SERVICES</h1>
-                <h4>We are able to offer you the support you are looking for lorem ipsum</h4>
+                <h4>We are able to offer you the support you are looking for</h4>
             </div>
             <div className="flex-container-services">
                 <div className="cards-services">

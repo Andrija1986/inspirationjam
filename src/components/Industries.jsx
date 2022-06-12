@@ -7,7 +7,7 @@ import {GiElectric} from "react-icons/gi";
 
 const Industries = () => {
   return (
-    <div className="biggest" id='industries'>
+    <div id='industry' className="biggest" >
         <div className="main cards-wrapper">
             <div className="cards-heading">
                 <p className="words2">We outshine at delivering the best web development and marketing services as per the customers’

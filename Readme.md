@@ -1,7 +1,69 @@
-# React App Amsterdam
+# React App
 
-- Created in React 18
-- 
+
+### Project Title: 
+  # Wevers Amsterdam
+
+
+### Table of Contents:
+
+    [About the Project](https://github.com/Andrija1986/inspirationjam#about-the-project)
+    [Technologies Used](https://github.com/Andrija1986/inspirationjam#technologies-used)
+    [Setup](https://github.com/Andrija1986/inspirationjam#setup)
+    [Approach](https://github.com/Andrija1986/inspirationjam#approach)
+    [Available Scripts](https://github.com/Andrija1986/inspirationjam#available-scripts)
+    [Learn More](https://github.com/Andrija1986/inspirationjam#learn-more)
+    [Code Splitting](https://github.com/Andrija1986/inspirationjam#code-splitting)
+    [Analyzing the Bundle Size](https://github.com/Andrija1986/inspirationjam#analyzing-the-bundle-size)
+    [Making a Progressive Web App](https://github.com/Andrija1986/inspirationjam#making-a-progressive-web-app)
+    [Advanced Configuration](https://github.com/Andrija1986/inspirationjam#advanced-configuration)
+    [Deployment](https://github.com/Andrija1986/inspirationjam#eployment)
+ 
+# About the Project:
+
+- In React 18 we have created responsive Single Page Application for our DCI Inspiration Jam.
+- It was to show how can be created one Agency which working field is Online Marketing and Web Development
+
+
+# Technologies Used:
+
+    1. HTMl
+    2. CSS
+    3. JavaScript
+    4. React
+
+
+# Setup / Installation:
+
+    1. npx create-react-app
+    2. npm i react-router-dom
+    3. npm i react-icons
+    4. npm i @emailjs/browser
+
+# Approach:
+    
+- we divided our project to section using mostly flex for design in CSS, and was trying to go smooth form one section to another
+
+# Credits:
+
+- this project was done by Marketing and Development crew
+
+- Marketing crew: 
+    * [VisakaLakshmi Ramiah Veerasigamani](https://www.linkedin.com/in/visakalakshmi-ramiah-veerasigamani-737150238/)
+    * [Charlotte Grude](https://www.linkedin.com/in/charlotte-grude-a69542a2/)
+
+- Development crew: 
+    * [Kübra Gumussoy](https://github.com/Adanurk)
+    * [Andrija Petrovic](https://github.com/Andrija1986)
+
+# Special Thanks To:
+
+- Marketing Mentors: 
+    * [Kenneth Shinabery](https://www.linkedin.com/in/kshinabery/)
+    * [Kotaiba Alami](https://www.google.com)
+
+- Development Mentor: 
+    * [Mansour Tumeh](https://www.linkedin.com/in/mansour-t-0028b921)
 
 # Getting Started with Create React App
 

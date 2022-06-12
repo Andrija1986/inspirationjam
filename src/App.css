@@ -259,6 +259,34 @@ section {
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
+/* -------------------------Resumes-------------------------*/
+.resumes {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.upload-btn {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  align-self: flex-end;
+  color: var(--green);
+  background-color: var(--orange);
+}
+.email {
+  color: var(--red);
+}
+.aupload {
+  text-decoration: none;
+  color: var(--dark_grayish_magenta);
+}
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/* ---------------------------------------------------------*/
 /* ------------------------Contact US-----------------------*/
 .contact {
   display: flex;

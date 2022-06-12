@@ -12,14 +12,14 @@ const ContactUs = () => {
     emailjs
       .sendForm(
         "service_qj3diqq",
-        "template_tfvqomq",
+        "template_wqksyar",
         form.current,
         "WTzmeoLfqC4vdIERJ"
       )
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          console.log("message sent", alert("Thanks for email"));
         },
         (error) => {
           console.log(error.text);

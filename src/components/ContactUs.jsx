@@ -19,7 +19,8 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent", alert("Thanks for email"));
+          alert("message sent Thanks for your message");
+          document.getElementById("form").reset();
         },
         (error) => {
           console.log(error.text);
@@ -34,16 +35,17 @@ const ContactUs = () => {
         <div className="resumes">
           <h3>Ready to build your career with us?</h3>
           <p>Send us your resume at <a href='#' className='email'>careers@wevers.com</a> or upload below.</p>
+          <input type="file" style={{width:"100%"}}/>
           <div className="upload-btn-wrapper">
           <button 
           className='upload-btn'
-          ><a href='#'>Upload</a>
+          >Upload
           </button>
           </div>
         </div>
         <div className="contact-form">
           <h3>Contact Us</h3>
-          <form ref={form} onSubmit={sendEmail}>
+          <form id="form" ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input type="text" name="user_name" />
             <label>Email</label>

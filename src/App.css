@@ -264,7 +264,81 @@ section {
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
+/* -------------------------Resumes-------------------------*/
+.resumes {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.upload-btn {
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  align-self: flex-end;
+  color: var(--green);
+  background-color: var(--orange);
+}
+.email {
+  color: var(--red);
+}
+.aupload {
+  text-decoration: none;
+  color: var(--dark_grayish_magenta);
+}
+/* ---------------------------------------------------------*/
+/* ---------------------------------------------------------*/
+
+/* ---------------------------------------------------------*/
 /* ------------------------Contact US-----------------------*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  font-size: 16px;
+}
+input {
+  width: 90%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+textarea {
+  max-width: 90%;
+  min-width: 90%;
+  width: 90%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+label {
+  margin-top: 2rem;
+  align-self: flex-start;
+  margin-left: 2.5rem;
+  margin-bottom: 1rem;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: rgb(249, 105, 14);
+  color: white;
+  border: none;
+}
 
 /* ---------------------------------------------------------*/
 /* ---------------------------FAQ---------------------------*/

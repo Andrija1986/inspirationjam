@@ -20,7 +20,7 @@ body {
 /* --------------------------header------------------------*/
 .header {
   color: white;
-  height: 30vh;
+  height: 60vh;
   background-color: #00BAF0;
   background: linear-gradient(to left, var(--orange), var(--red));
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */

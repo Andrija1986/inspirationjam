@@ -343,6 +343,57 @@ body {
 }
 
 /* --------------------------------------------------------*/
+/* ---------------------industries--------------------------*/
+.cards-wrapper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cards-wrapper .cards-heading {
+  width: 75%;
+  justify-content: center;
+  margin: 1rem;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.cards-wrapper .cards-container-industry {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+  width: 100%;
+}
+.cards-wrapper .cards-container-industry .card-industry {
+  margin: 1rem;
+  width: 230px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: solid 1px #145450;
+}
+.cards-wrapper .cards-container-industry .card-industry img {
+  display: block;
+  width: 100%;
+  height: 5rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.cards-wrapper .cards-container-industry .card-industry h4 {
+  width: fit-content;
+  text-align: center;
+  padding: 3px;
+  font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------*/
 
 
 section {

@@ -45,7 +45,8 @@ body {
 }
 
 .words {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .img {
@@ -70,18 +71,16 @@ body {
   max-height: 300px;
   overflow: auto;
 }
-.header-writings h3 {
-  margin: 2rem;
-  width: fit-content;
-}
+
 .header-writings h1 {
-  font-size: 4rem;
+  font-size: 2rem;
   width: fit-content;
   color: white;
   margin-bottom: 0.5rem;
+  font-weight: bolder;
 }
 .header-writings p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: fit-content;
 }
 

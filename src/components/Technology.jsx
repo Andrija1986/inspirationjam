@@ -6,7 +6,9 @@ import { IconContext } from "react-icons";
 
 const Technology = () => {
   return (
-    <section id='technology' className='technology'>
+    
+      <div className="biggest" id="technology">
+        <div className="main tech">
     <IconContext.Provider value={{className: "top-icons"}}>
       <SiJavascript/>
       <IoLogoAngular/>
@@ -17,7 +19,10 @@ const Technology = () => {
       <IoLogoNodejs/>
       <SiPhp/>
     </IconContext.Provider>
-    </section>
+
+        </div>
+        </div>
+
   )
 }
 

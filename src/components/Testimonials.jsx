@@ -1,6 +1,3 @@
-//import image1 from "./assets/WEVERS_#1_brand_usage_#7_created_by_logaster.png";
-//import image2 from "./.assets/WEVERS_#1_brand_usage_#8_created_by_logaster.png";
-//import image3 from "./assets/WEVERS_#1_brand_usage_#9_created_by_logaster.png"
 
 const Testimonials = () => {
   return (

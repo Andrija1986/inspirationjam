@@ -1,9 +1,11 @@
 # React App
 
+![Web Development](./public/assets/Front-end-developer.png)
 
 ### Project Title: 
   # Wevers Amsterdam
 
+![Logo](./public/assets/logo.png)
 
 ### Table of Contents:
 
@@ -25,6 +27,12 @@
 - In React 18 we have created responsive Single Page Application for our DCI Inspiration Jam.
 - It was to show how can be created one Agency which working field is Online Marketing and Web Development
 
+
+# Snippets:
+
+![Testimonials](./public/assets/wever-1.png)
+![Industries](./public/assets/wever2.png)
+![Services](./public/assets/wever3.png)
 
 # Technologies Used:
 

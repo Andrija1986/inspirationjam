@@ -335,10 +335,12 @@ body {
   margin-left: 1rem;
   transition: 0.2s;
 }
-.services .flex-container-services .cards-services button:hover, .services .flex-container-services .cards-services button:active {
+.services .flex-container-services .cards-services button:hover,
+.services .flex-container-services .cards-services button:active {
   background-color: #ecd8d8;
 }
-.services .flex-container-services .cards-services button:hover span, .services .flex-container-services .cards-services button:active span {
+.services .flex-container-services .cards-services button:hover span,
+.services .flex-container-services .cards-services button:active span {
   margin-left: 1.5rem;
 }
 
@@ -395,7 +397,6 @@ body {
 
 /* ---------------------------------------------------------*/
 
-
 section {
   width: 100%;
   height: 500px;
@@ -407,19 +408,16 @@ section {
 
 /* ---------------------------------------------------------*/
 /* -----------------------technology------------------------*/
-
-/* .technology {
+/* 
+.technology {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-
-.top-icons,
-.bottom-icons {
-  font-size: 9rem;
-  justify-self: center;
-  align-self: center;
-  color: purple;
-} */
+ */
+.icons {
+  font-size: 3rem;
+  color: var(--dark_grayish_magenta);
+}
 
 .tech {
   display: flex;
@@ -437,7 +435,7 @@ section {
   text-align: center;
 }
 .tech .horizontal-scroll {
-  height: 600px;
+  height: 800px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -449,12 +447,17 @@ section {
 }
 .tech .horizontal-scroll .scroll-element li {
   list-style-type: none;
+  color: var(--dark_grayish_magenta);
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
 }
 .tech .horizontal-scroll .scroll-element h3 {
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   padding: 5px;
   text-align: center;
+  font-size: xx-large;
 }
 
 /* ---------------------------------------------------------*/

@@ -1,10 +1,11 @@
 import {SiJavascript, SiPhp, SiMongodb, SiOracle} from "react-icons/si";
 import {FaJava} from "react-icons/fa";
-import {IoLogoAngular,IoLogoNodejs, IoLogoVue} from "react-icons/io";
+import {IoLogoAngular,IoLogoNodejs} from "react-icons/io";
 import {GrReactjs, GrMysql, GrApple} from "react-icons/gr";
 import {DiRuby, DiMsqlServer, DiPostgresql, DiAndroid} from "react-icons/di";
 import {TbBrandReactNative} from "react-icons/tb";
-/* import { IconContext } from "react-icons"; */
+import {RiVuejsFill} from "react-icons/ri"
+import { IconContext } from "react-icons";
 
 const Technology = () => {
   return (
@@ -17,38 +18,49 @@ const Technology = () => {
                 <div className="scroll-element">
                     <h3>Backend</h3>
                     <ul>
-                        <li>.NET</li>
+                        <IconContext.Provider value={{className: "icons"}}>
+
                         <li><IoLogoNodejs/></li>
                         <li><DiRuby/></li>
                         <li><FaJava/></li>
                         <li><SiPhp/></li>
+                        </IconContext.Provider>
                     </ul>
                 </div>
                 <div className="scroll-element">
                     <h3>Frontend</h3>
                     <ul>
+                        <IconContext.Provider value={{className: "icons"}}>
+
                         <li><SiJavascript/></li>
                         <li><GrReactjs/></li>
-                        <li><IoLogoVue/></li>
+                        <li><RiVuejsFill/></li>
                         <li><IoLogoAngular/></li>
+                        </IconContext.Provider>
                     </ul>
                 </div>
                 <div className="scroll-element">
                     <h3>Database</h3>
                     <ul>
+                        <IconContext.Provider value={{className: "icons"}}>
+
                         <li><DiMsqlServer/></li>
                         <li><DiPostgresql/></li>
                         <li><GrMysql/></li>
                         <li><SiMongodb/></li>
                         <li><SiOracle/></li>
+                        </IconContext.Provider>
                     </ul>
                 </div>
                 <div className="scroll-element">
                     <h3>Mobility</h3>
                     <ul>
+                        <IconContext.Provider value={{className: "icons"}}>
+
                         <li><GrApple/></li>
                         <li><TbBrandReactNative/></li>
                         <li><DiAndroid/></li>
+                        </IconContext.Provider>
                     </ul>
                 </div>
                 <div className="scroll-element">

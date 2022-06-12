@@ -10,7 +10,7 @@ const Industries = () => {
     <div className="biggest" id='industries'>
         <div className="main cards-wrapper">
             <div className="cards-heading">
-                <p>We outshine at delivering the best web development and marketing services as per the customers’
+                <p className="words2">We outshine at delivering the best web development and marketing services as per the customers’
                     requirements, be it small-size companies in their beginning phase or mid-size businesses looking for
                     growth, or large organizations actively making efforts to expand.</p>
             </div>

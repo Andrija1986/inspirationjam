@@ -7,7 +7,6 @@ const Customers = () => {
           
         <h2>Our Customers</h2>
         <div className="customer-texts">
-
           <p className="second-p">We deliver quality digital solutions to our customers across different industry verticals, to align with their business objectives and budget expectations.
           </p>
         </div>

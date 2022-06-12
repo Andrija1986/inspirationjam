@@ -53,6 +53,7 @@ body {
   width: 15vw;
   height: 70px;
 }
+
 .img img {
   width: 100%;
   height: 55px;
@@ -201,7 +202,6 @@ body {
 /* -----------------------why us---------------------------*/
 
 .first {
-  /* position: relative; */
   top: 50px;
 }
 
@@ -242,7 +242,7 @@ body {
   justify-content: center;
 }
 
-.experiment{
+.experiment {
   padding: 5px;
 }
 
@@ -253,11 +253,11 @@ body {
   align-items: center;
 }
 
-.reasons .reasons-div div p{
+.reasons .reasons-div div p {
   padding: 10px;
 }
 
-.reasons .reasons-div div h3{
+.reasons .reasons-div div h3 {
   padding: 10px;
   font-weight: bolder;
 }
@@ -433,24 +433,8 @@ body {
 }
 
 /* ---------------------------------------------------------*/
-
-section {
-  width: 100%;
-  height: 500px;
-  border: 1px solid black;
-}
-
-/* ---------------------------------------------------------*/
-/* ---------------------------------------------------------*/
-
-/* ---------------------------------------------------------*/
 /* -----------------------technology------------------------*/
-/* 
-.technology {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
- */
+
 .icons {
   font-size: 3rem;
   color: var(--dark_grayish_magenta);
@@ -505,20 +489,20 @@ section {
 /* ---------------------------------------------------------*/
 /* ---------------------Testimonials------------------------*/
 
-.testimonials{
+.testimonials {
   margin-top: 2rem;
   margin-bottom: 2rem;
   background-color: var(--back-pale);
 }
 
-.tests{
+.tests {
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.tests div{
+.tests div {
   padding: 1rem;
   width: 30%;
   min-width: 300px;
@@ -528,51 +512,19 @@ section {
   flex-direction: column;
   justify-content: flex-start;
   border: solid black 1px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.under-names{
+.under-names {
   margin-top: 0.5rem;
   font-style: italic;
   color: black;
 }
 
-.tests div img{
+.tests div img {
   width: 100%;
   margin-bottom: 10px;
 }
-
-
-
-
-/* .testimonials {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.start,
-.middle,
-.end {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.start img,
-.middle img,
-.end img {
-  grid-row: 1/ 2;
-  width: 60%;
-  height: 60%;
-  align-self: center;
-  justify-self: center;
-}
-.start p,
-.middle p,
-.end p {
-  justify-self: center;
-  align-self: center;
-  margin-bottom: 20px;
-} */
 
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
@@ -580,7 +532,7 @@ section {
 /* ---------------------------------------------------------*/
 /* ------------------------Customers------------------------*/
 
-.custs{
+.custs {
   margin: 2rem;
   padding: 3rem;
   display: flex;
@@ -592,7 +544,7 @@ section {
   align-items: center;
 }
 
-.custs h2{
+.custs h2 {
   width: 100%;
   text-align: center;
   padding: 1rem;
@@ -600,13 +552,13 @@ section {
   border-bottom: solid black 1px;
 }
 
-.customer-texts{
+.customer-texts {
   width: 50%;
   margin: 10px;
   min-width: 250px;
 }
 
-.custs p{
+.custs p {
   margin: 0.5rem;
   padding: 1rem;
 }
@@ -617,44 +569,10 @@ section {
   padding: 10px;
 }
 
-.img-cont-cust img{
+.img-cont-cust img {
   width: 100%;
   object-fit: cover;
 }
-
-
-/* .customers {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 15px;
-}
-
-.customers h2 {
-  grid-column: 2 / 3;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
-}
-.customers img {
-  height: 100%;
-  width: 100%;
-  grid-column: 3 / 4;
-  grid-row: 1/ 4;
-  margin-top: 30px;
-}
-
-.first-p {
-  grid-column: 1/ 3;
-  grid-row: 2 / 3;
-  margin: 10px;
-}
-
-.second-p {
-  grid-column: 1/ 3;
-  grid-row: 3 / 4;
-  margin: 10px;
-} */
 
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
@@ -726,7 +644,6 @@ section {
 .resumes p{
   font-size: 1.5rem;
 }
-
 
 .contact-form {
   width: 50%;
@@ -860,7 +777,7 @@ input[type="submit"] {
   opacity: 1;
 }
 
-.faq-big h2{
+.faq-big h2 {
   padding: 1rem;
   text-align: center;
 }
@@ -893,7 +810,6 @@ input[type="submit"] {
 /* --------------------media-query-------------------------*/
 
 @media (max-width: 815px) {
-
   .img {
     width: 35vw;
     height: 100%;
@@ -919,25 +835,8 @@ input[type="submit"] {
     width: 100%;
     justify-content: center;
     align-items: center;
-    /* position: absolute;
-    top: 0;
-    margin-top: 60px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: #00baf0;
-    background: linear-gradient(to left, #f46b45, #eea849);
-    color: #fff;
-    height: 60px;
-    padding: 1em;
-    position: fixed; */
+  
   }
-
-  /* .name {
-    height: 100%;
-  } */
 
   #menu-toggle ~ .menu li {
     height: 0;

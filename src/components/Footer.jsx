@@ -9,11 +9,13 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <img src="./assets/logo.png" alt="logo" />
+      <div className="div-icons">
       <IconContext.Provider value={{className: "footer-icons"}}>
       <FaFacebookSquare/>
       <FaInstagramSquare/>
       <AiFillLinkedin/>
       </IconContext.Provider>
+      </div>
     </footer>
   )
 }

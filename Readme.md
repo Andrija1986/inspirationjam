@@ -6,7 +6,6 @@
 
 
 ### Table of Contents:
-
     [About the Project](https://github.com/Andrija1986/inspirationjam#about-the-project)
     [Technologies Used](https://github.com/Andrija1986/inspirationjam#technologies-used)
     [Setup](https://github.com/Andrija1986/inspirationjam#setup)

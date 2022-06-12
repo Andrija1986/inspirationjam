@@ -19,7 +19,6 @@ const Technology = () => {
                     <h3>Backend</h3>
                     <ul>
                         <IconContext.Provider value={{className: "icons"}}>
-
                         <li><IoLogoNodejs/></li>
                         <li><DiRuby/></li>
                         <li><FaJava/></li>
@@ -31,7 +30,6 @@ const Technology = () => {
                     <h3>Frontend</h3>
                     <ul>
                         <IconContext.Provider value={{className: "icons"}}>
-
                         <li><SiJavascript/></li>
                         <li><GrReactjs/></li>
                         <li><RiVuejsFill/></li>

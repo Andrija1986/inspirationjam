@@ -229,11 +229,26 @@ body {
   justify-content: center;
 }
 
+.experiment{
+  padding: 5px;
+}
+
 .reasons .reasons-div div {
   display: flex;
+  padding: 10px;
   margin: 5px;
   align-items: center;
 }
+
+.reasons .reasons-div div p{
+  padding: 10px;
+}
+
+.reasons .reasons-div div h3{
+  padding: 10px;
+  font-weight: bolder;
+}
+
 .reasons .reasons-div div .nums {
   width: 2.5rem;
   height: 3rem;
@@ -273,6 +288,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .services .flex-container-services .cards-services {
   display: flex;
@@ -352,6 +368,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .cards-wrapper .cards-heading {
   width: 75%;
@@ -423,8 +440,8 @@ section {
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  padding: 3rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
 }
 .tech .details {
   padding: 1rem;
@@ -432,13 +449,14 @@ section {
 }
 .tech .details h1 {
   text-align: center;
+  border-bottom: solid 1px black;
 }
 .tech .horizontal-scroll {
-  height: 800px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 .tech .horizontal-scroll .scroll-element {
   width: 30%;
@@ -453,10 +471,10 @@ section {
 }
 .tech .horizontal-scroll .scroll-element h3 {
   width: 100%;
-  height: 3rem;
   padding: 5px;
   text-align: center;
   font-size: xx-large;
+  overflow: hidden;
 }
 
 /* ---------------------------------------------------------*/
@@ -464,7 +482,47 @@ section {
 
 /* ---------------------------------------------------------*/
 /* ---------------------Testimonials------------------------*/
-.testimonials {
+
+.testimonials{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.tests{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tests div{
+  padding: 1rem;
+  width: 30%;
+  min-width: 300px;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: solid black 1px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.under-names{
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: black;
+}
+
+.tests div img{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+
+
+
+/* .testimonials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -491,14 +549,52 @@ section {
   justify-self: center;
   align-self: center;
   margin-bottom: 20px;
-}
+} */
 
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
 /* ------------------------Customers------------------------*/
-.customers {
+
+.custs{
+  margin: 2rem;
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custs h2{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid black 1px;
+}
+
+.customer-texts{
+  width: 50%;
+  margin: 10px;
+  min-width: 250px;
+}
+
+.custs p{
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.img-cont-cust{
+  margin: 0.5rem;
+  padding: 10px;
+}
+
+.img-cont-cust img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* .customers {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -529,13 +625,14 @@ section {
   grid-column: 1/ 3;
   grid-row: 3 / 4;
   margin: 10px;
-}
+} */
 
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
 
 /* ---------------------------------------------------------*/
 /* -------------------------Resumes-------------------------*/
+
 .resumes {
   height: 150px;
   display: flex;
@@ -564,17 +661,43 @@ section {
 
 /* ---------------------------------------------------------*/
 /* ------------------------Contact US-----------------------*/
-.contact {
+.forms-wrapper{
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.resumes {
+  width: 30%;
+  min-width: 330px;
+  padding: 1rem;
+  height: 400px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 5px;
+}
+
+
+.contact-form {
+  width: 45%;
+  min-width: 330px;
+  padding: 1rem;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+
 }
 
 form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 100%;
   font-size: 16px;
 }
 input {
@@ -675,6 +798,12 @@ input[type="submit"] {
   max-height: 1000px;
   opacity: 1;
 }
+
+.faq-big h2{
+  padding: 1rem;
+  text-align: center;
+}
+
 /* ---------------------------------------------------------*/
 /* ---------------------------------------------------------*/
 
@@ -699,6 +828,7 @@ input[type="submit"] {
 /* --------------------media-query-------------------------*/
 
 @media (max-width: 815px) {
+
   .img {
     width: 35vw;
     height: 100%;

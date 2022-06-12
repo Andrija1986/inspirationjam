@@ -47,9 +47,9 @@ const FAQ = () => {
 
   return (
     
-      <div id='faq' className="biggest">
-
-      <div className="faqs">
+    <div id='faq' className="biggest faq-big">
+        <div className="main faqs">
+          <h2>Frequently Asked Questions</h2>
         {faqs.map((faq, i) => (
           <FaqQuestions 
           faq={faq} 
@@ -58,7 +58,6 @@ const FAQ = () => {
         ))}
       </div>
       </div>
- 
   )
 }
 

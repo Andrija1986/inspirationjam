@@ -2,9 +2,9 @@
 
 const NavBar = () => {
   return (
-    <nav className="top-nav">
+    <nav  className="top-nav">
     <div className="img">
-    <img src="./assets/logo.png" className="logo" alt="Logo" />
+    <a href="#"><img src="./assets/logo.png" className="logo" alt="Logo" /></a>
     </div>
     <input id="menu-toggle" type="checkbox" />
     <label className='menu-button-container' htmlFor="menu-toggle">

@@ -1,5 +1,3 @@
-# React App
-
 ![Web Development](./public/assets/Front-end-developer.png)
 
 ### Project Title: 

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Source+Sans+Pro:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 :root {
   --orange: #fb9a17;
@@ -6,7 +6,7 @@
   --dark_grayish_magenta: #3c353c;
   --green: #145450;
   --red: #fb050b;
-  font-family: "Lora", serif;
+  font-family: 'EB Garamond', serif;
 }
 
 * {
@@ -17,20 +17,43 @@
 
 body {
   color: var(--orange);
+  position: relative;
 }
+
+/*---Containers for Sections--- */
+
+.biggest {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.biggest .main {
+  width: 80%;
+}
+
 /* --------------------------------------------------------*/
 /* --------------------------header------------------------*/
 .header {
   color: white;
-<<<<<<< HEAD
-  height: 60vh;
-  background-color: #00BAF0;
-=======
   height: 50vh;
-  background-color: #00baf0;
->>>>>>> 7871a771f1913396159c11b776ede08f3593bb4d
-  background: linear-gradient(to left, var(--orange), var(--red));
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #f46b45, #eea849);
+  /* background: linear-gradient(to left, var(--orange), var(--red)); */
+}
+
+.img {
+  margin: 0;
+  width: 15vw;
+  height: 70px;
+}
+.img img {
+  width: 100%;
+  height: 55px;
+  object-fit: cover;
+  margin: 5px auto;
 }
 
 .header-writings {
@@ -38,7 +61,8 @@ body {
   top: 60px;
   margin: 1rem;
   padding: 0.5rem;
-  width: 60%;
+  width: 80%;
+  overflow: hidden;
 }
 .header-writings h3 {
   margin: 0.5rem;
@@ -63,12 +87,14 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--baronial_brown);
-  background: linear-gradient(to left, var(--orange), var(--red));
-  color: var(--baronial_brown);
-  height: 50px;
+  background-color: #00BAF0;
+  background: linear-gradient(to left, #f46b45, #eea849);
+  color: #FFF;
+  height: 70px;
   padding: 1em;
   position: fixed;
+  z-index: 2;
+  top: 0;
 }
 
 .menu {
@@ -426,31 +452,51 @@ input[type="submit"] {
 /* --------------------media-query-------------------------*/
 
 @media (max-width: 700px) {
+  .img {
+    width: 35vw;
+    height: 100%;
+    margin: 0;
+  }
+
+  .img img {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+  }
+
   .menu-button-container {
     display: flex;
   }
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    /* position: absolute;
+    top: 0;
+    margin-top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     background-color: #00baf0;
     background: linear-gradient(to left, #f46b45, #eea849);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
     height: 60px;
     padding: 1em;
-    position: fixed;
+    position: fixed; */
   }
 
-  .name {
+  /* .name {
     height: 100%;
-  }
+  } */
+
   #menu-toggle ~ .menu li {
     height: 0;
     margin: 0;

@@ -3,7 +3,7 @@
 const NavBar = () => {
   return (
     <nav className="top-nav">
-    <div>
+    <div className="img">
     <img src="./assets/logo.png" className="logo" alt="Logo" />
     </div>
     <input id="menu-toggle" type="checkbox" />

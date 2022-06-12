@@ -17,7 +17,7 @@ const WhyUs = () => {
                         consectetur adipisicing elit. Architecto, asperiores nisi. Aut quibusdam laborum error, tenetur
                         iste quam officiis mollitia.</div>
                 </div>
-                <img src="./src/img/pexels-thirdman-5256816.jpg" alt="" className="img-2"/>
+                <img src="./assets/why-us.jpg" alt="" className="img-2"/>
             </div>
         </div>
     </main>

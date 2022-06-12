@@ -18,7 +18,7 @@
 * [Analyzing the Bundle Size](https://github.com/Andrija1986/inspirationjam#analyzing-the-bundle-size)
 * [Making a Progressive Web App](https://github.com/Andrija1986/inspirationjam#making-a-progressive-web-app)
 * [Advanced Configuration](https://github.com/Andrija1986/inspirationjam#advanced-configuration)
-* [Deployment](https://github.com/Andrija1986/inspirationjam#eployment)
+* [Deployment](https://github.com/Andrija1986/inspirationjam#deployment)
 
 # About the Project:
 

@@ -41,7 +41,6 @@ body {
   height: 50vh;
   background-color: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
-  /* background: linear-gradient(to left, var(--orange), var(--red)); */
 }
 
 .img {
@@ -59,7 +58,7 @@ body {
 .header-writings {
   position: absolute;
   top: 60px;
-  margin: 1rem;
+  margin: 2rem;
   padding: 0.5rem;
   width: 80%;
   overflow: hidden;
@@ -129,7 +128,7 @@ body {
   transform: scaleX(1);
 }
 .menu li a:hover {
-  color: #5a463f;
+  color: var(--baronial_brown);
 }
 
 .menu > li {
@@ -191,7 +190,7 @@ body {
 /* -----------------------why us---------------------------*/
 
 .first {
-  position: relative;
+  /* position: relative; */
   top: 50px;
 }
 
@@ -307,13 +306,13 @@ body {
 .services .flex-container-services .cards-services .card-content-services h1 {
   font-size: 1.9rem;
   font-weight: 500;
-  color: #0d0d0d;
+  color: var(--baronial_brown);
   margin-bottom: 0.2rem;
 }
 .services .flex-container-services .cards-services .card-content-services p {
   font-size: 1rem;
   letter-spacing: 0.04rem;
-  color: #3d3d3d;
+  color: var(--baronial_brown);
   margin-bottom: 0.1rem;
 }
 .services .flex-container-services .cards-services button {
@@ -324,7 +323,7 @@ body {
   padding: 3px;
   font-size: 1.4rem;
   text-align: center;
-  color: #fb050b;
+  color: var(--red);
   background-color: #efdfdf;
   border: none;
   border-radius: 0.4rem;
@@ -381,7 +380,7 @@ body {
   padding: 1rem;
   border: solid 1px #145450;
 }
-.cards-wrapper .cards-container-industry .card-industry img {
+.cards-wrapper .cards-container-industry .card-industry svg {
   display: block;
   width: 100%;
   height: 5rem;
@@ -481,8 +480,8 @@ section {
 .middle img,
 .end img {
   grid-row: 1/ 2;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   align-self: center;
   justify-self: center;
 }
@@ -513,8 +512,8 @@ section {
   justify-self: center;
 }
 .customers img {
-  height: 400px;
-  width: 350px;
+  height: 100%;
+  width: 100%;
   grid-column: 3 / 4;
   grid-row: 1/ 4;
   margin-top: 30px;
@@ -687,17 +686,19 @@ input[type="submit"] {
   justify-content: center;
   align-content: center;
   margin-top: 20px;
+  background: linear-gradient(to right, #f46b45, #eea849);
 }
 
 .footer-icons {
   width: 9rem;
   height: 4rem;
   align-self: center;
+  color: var(--dark_grayish_magenta);
 }
 /* --------------------------------------------------------*/
 /* --------------------media-query-------------------------*/
 
-@media (max-width: 700px) {
+@media (max-width: 815px) {
   .img {
     width: 35vw;
     height: 100%;

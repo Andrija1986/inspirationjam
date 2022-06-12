@@ -28,7 +28,9 @@ const ContactUs = () => {
     }
 
   return (
-    <section className='contact'>
+    
+      <div id='technology' className="biggest">
+
         <h3>Contact Us</h3>
         <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
@@ -39,7 +41,8 @@ const ContactUs = () => {
         <textarea name="message" />
         <input type="submit" value="Send" />
       </form>
-    </section>
+      </div>
+    
   )
 }
 

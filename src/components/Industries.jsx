@@ -1,4 +1,9 @@
-import React from 'react'
+import {ImBook} from "react-icons/im";
+import {MdOutlineHealthAndSafety} from "react-icons/md";
+import {AiOutlineShoppingCart} from "react-icons/ai";
+import {SiYourtraveldottv} from "react-icons/si";
+import {BsMusicNote} from "react-icons/bs";
+import {GiElectric} from "react-icons/gi";
 
 const Industries = () => {
   return (
@@ -11,28 +16,28 @@ const Industries = () => {
             </div>
             <div className="cards-container-industry">
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
+                    <ImBook/>
                     <h4>Education</h4>
                 </div>
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
+                    <MdOutlineHealthAndSafety/>
                     <h4>Healthcare</h4>
                 </div>
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
-                    <h4>Retail and Ecommerce</h4>
+                    <AiOutlineShoppingCart/>
+                    <h4>Retail and Commerce</h4>
                 </div>
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
-                    <h4>Travel</h4>
+                    <SiYourtraveldottv/>
+                    <h4>Travel and Hospitality</h4>
                 </div>
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
-                    <h4>Public Sector</h4>
+                    <BsMusicNote/>
+                    <h4>Media and Entertainment</h4>
                 </div>
                 <div className="card-industry">
-                    <img src="#" alt="some-here"/>
-                    <h4>Logistics</h4>
+                    <GiElectric/>
+                    <h4>Energy and Utilities</h4>
                 </div>
             </div>
         </div>

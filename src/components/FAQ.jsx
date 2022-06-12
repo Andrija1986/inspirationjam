@@ -46,7 +46,9 @@ const FAQ = () => {
   }
 
   return (
-    <section id='faq' className='faq'>
+    
+      <div id='faq' className="biggest">
+
       <div className="faqs">
         {faqs.map((faq, i) => (
           <FaqQuestions 
@@ -55,7 +57,8 @@ const FAQ = () => {
           toggleFAQ={toggleFAQ}/>
         ))}
       </div>
-    </section>
+      </div>
+ 
   )
 }
 

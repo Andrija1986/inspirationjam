@@ -2,7 +2,7 @@
 
 const Services = () => {
   return (
-    <div className="biggest" id="services">
+    <div className="biggest servs" id="services">
         <div className="main services">
             <div className="services-headings">
                 <h1 className="services-h2">SERVICES</h1>

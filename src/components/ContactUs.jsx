@@ -34,10 +34,12 @@ const ContactUs = () => {
         <div className="resumes">
           <h3>Ready to build your career with us?</h3>
           <p>Send us your resume at <a href='#' className='email'>careers@wevers.com</a> or upload below.</p>
+          <div className="upload-btn-wrapper">
           <button 
           className='upload-btn'
           ><a href='#' className='aupload'>Upload</a>
           </button>
+          </div>
         </div>
         <div className="contact-form">
           <h3>Contact Us</h3>
@@ -48,7 +50,7 @@ const ContactUs = () => {
             <input type="email" name="user_email" />
             <label>Message</label>
             <textarea name="message" />
-            <input type="submit" value="Send" />
+            <button type="submit">Send</button>
           </form>
         </div>
     </div>

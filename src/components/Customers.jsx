@@ -7,10 +7,8 @@ const Customers = () => {
           
         <h2>Our Customers</h2>
         <div className="customer-texts">
-          <p className="first-p">We outshine at delivering the best web development and marketing services as per the customers’ requirements, be it small-size companies in their beginning phase or mid-size businesses looking for growth, or large organizations actively making efforts to expand.</p>
-          <p className="second-p">We deliver quality digital solutions to our customers across different industry verticals, to align with their business objectives and budget expectations.</p>
-          <p>
-            
+
+          <p className="second-p">We deliver quality digital solutions to our customers across different industry verticals, to align with their business objectives and budget expectations.
           </p>
         </div>
         <div className="img-cont-cust">

@@ -252,6 +252,98 @@ body {
 }
 
 /* --------------------------------------------------------*/
+/* --------------------services-------------------------*/
+
+.services {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 10px;
+}
+.services .services-headings {
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.services .services-headings h4 {
+  border-top: solid black 1px;
+}
+.services .flex-container-services {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services .flex-container-services .cards-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 0.5rem;
+  height: 400px;
+  transition: 0.2s;
+}
+.services .flex-container-services .cards-services:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
+}
+.services .flex-container-services .cards-services img {
+  border-radius: 0.4rem;
+  display: block;
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+.services .flex-container-services .cards-services .card-content-services {
+  padding: 0.3rem;
+}
+.services .flex-container-services .cards-services .card-content-services h1 {
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 0.2rem;
+}
+.services .flex-container-services .cards-services .card-content-services p {
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  color: #3d3d3d;
+  margin-bottom: 0.1rem;
+}
+.services .flex-container-services .cards-services button {
+  display: block;
+  height: 2.1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 3px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #fb050b;
+  background-color: #efdfdf;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.services .flex-container-services .cards-services button span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+.services .flex-container-services .cards-services button:hover, .services .flex-container-services .cards-services button:active {
+  background-color: #ecd8d8;
+}
+.services .flex-container-services .cards-services button:hover span, .services .flex-container-services .cards-services button:active span {
+  margin-left: 1.5rem;
+}
+
+/* --------------------------------------------------------*/
+
 
 section {
   width: 100%;

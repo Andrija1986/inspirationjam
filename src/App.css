@@ -188,6 +188,69 @@ body {
 }
 
 /* --------------------------------------------------------*/
+/* -----------------------why us---------------------------*/
+
+.first {
+  position: relative;
+  top: 50px;
+}
+
+.whyus {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.reasons {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  justify-content: space-around;
+}
+
+.reasons h2 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.reasons .reasons-div {
+  width: 40%;
+  min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: center;
+}
+
+.reasons .reasons-div div {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+.reasons .reasons-div div .nums {
+  width: 2.5rem;
+  height: 3rem;
+  margin: 5px;
+  object-fit: cover;
+}
+.reasons img {
+  width: 40%;
+  margin: 5px;
+}
+
+.reasons .img-2 {
+  object-fit: cover;
+  min-width: 300px;
+}
+
 /* --------------------------------------------------------*/
 
 section {

@@ -6,18 +6,20 @@
 
 
 ### Table of Contents:
-    [About the Project](https://github.com/Andrija1986/inspirationjam#about-the-project)
-    [Technologies Used](https://github.com/Andrija1986/inspirationjam#technologies-used)
-    [Setup](https://github.com/Andrija1986/inspirationjam#setup)
-    [Approach](https://github.com/Andrija1986/inspirationjam#approach)
-    [Available Scripts](https://github.com/Andrija1986/inspirationjam#available-scripts)
-    [Learn More](https://github.com/Andrija1986/inspirationjam#learn-more)
-    [Code Splitting](https://github.com/Andrija1986/inspirationjam#code-splitting)
-    [Analyzing the Bundle Size](https://github.com/Andrija1986/inspirationjam#analyzing-the-bundle-size)
-    [Making a Progressive Web App](https://github.com/Andrija1986/inspirationjam#making-a-progressive-web-app)
-    [Advanced Configuration](https://github.com/Andrija1986/inspirationjam#advanced-configuration)
-    [Deployment](https://github.com/Andrija1986/inspirationjam#eployment)
- 
+
+
+* [About the Project](https://github.com/Andrija1986/inspirationjam#about-the-project)
+* [Technologies Used](https://github.com/Andrija1986/inspirationjam#technologies-used)
+* [Setup](https://github.com/Andrija1986/inspirationjam#setup)
+* [Approach](https://github.com/Andrija1986/inspirationjam#approach)
+* [Available Scripts](https://github.com/Andrija1986/inspirationjam#available-scripts)
+* [Learn More](https://github.com/Andrija1986/inspirationjam#learn-more)
+* [Code Splitting](https://github.com/Andrija1986/inspirationjam#code-splitting)
+* [Analyzing the Bundle Size](https://github.com/Andrija1986/inspirationjam#analyzing-the-bundle-size)
+* [Making a Progressive Web App](https://github.com/Andrija1986/inspirationjam#making-a-progressive-web-app)
+* [Advanced Configuration](https://github.com/Andrija1986/inspirationjam#advanced-configuration)
+* [Deployment](https://github.com/Andrija1986/inspirationjam#eployment)
+
 # About the Project:
 
 - In React 18 we have created responsive Single Page Application for our DCI Inspiration Jam.

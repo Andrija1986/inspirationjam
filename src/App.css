@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
 
 :root {
   --orange: #fb9a17;
@@ -6,7 +6,7 @@
   --dark_grayish_magenta: #3c353c;
   --green: #145450;
   --red: #fb050b;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 * {
@@ -39,7 +39,7 @@ body {
 .header {
   color: white;
   height: 50vh;
-  background-color: #00BAF0;
+  background-color: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
   /* background: linear-gradient(to left, var(--orange), var(--red)); */
 }
@@ -87,9 +87,9 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #00BAF0;
+  background-color: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
-  color: #FFF;
+  color: #fff;
   height: 70px;
   padding: 1em;
   position: fixed;

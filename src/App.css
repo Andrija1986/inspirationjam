@@ -407,7 +407,8 @@ section {
 
 /* ---------------------------------------------------------*/
 /* -----------------------technology------------------------*/
-.technology {
+
+/* .technology {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -418,6 +419,42 @@ section {
   justify-self: center;
   align-self: center;
   color: purple;
+} */
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 3rem;
+}
+.tech .details {
+  padding: 1rem;
+  width: 100%;
+}
+.tech .details h1 {
+  text-align: center;
+}
+.tech .horizontal-scroll {
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+.tech .horizontal-scroll .scroll-element {
+  width: 30%;
+  margin: 1rem;
+}
+.tech .horizontal-scroll .scroll-element li {
+  list-style-type: none;
+}
+.tech .horizontal-scroll .scroll-element h3 {
+  width: 100%;
+  height: 2rem;
+  padding: 5px;
+  text-align: center;
 }
 
 /* ---------------------------------------------------------*/

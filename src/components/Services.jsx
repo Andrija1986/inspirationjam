@@ -71,7 +71,7 @@ export default Services
       <div>
           <FcMultipleDevices/>
         <h3>Web Development</h3>
-        <p>Web Development: Development paves the way for opportunities. Through pioneering techniques and Ideas, our development Teamm makes sure that they deliver the premier weaved sustainable designs.
+        <p>Web Development: Development paves the way for opportunities. Through pioneering techniques and Ideas, our development Team makes sure that they deliver the premier weaved sustainable designs.
         </p>
         <button>More</button>
       </div>

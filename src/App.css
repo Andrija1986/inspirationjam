@@ -53,7 +53,6 @@ body {
   height: 55px;
   object-fit: cover;
   margin: 5px auto;
-  align-self: baseline;
 }
 
 .header-writings {
@@ -84,7 +83,8 @@ body {
 .top-nav {
   display: flex;
   width: 100%;
-  align-items: baseline;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   background-color: #00baf0;
   background: linear-gradient(to left, #f46b45, #eea849);
@@ -138,10 +138,12 @@ body {
 
 .menu-button-container {
   display: none;
+  /*  height: 100%; */
   width: 30px;
   cursor: pointer;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 
 #menu-toggle {

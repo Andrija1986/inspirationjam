@@ -896,6 +896,9 @@ input[type="submit"] {
   .img-cont-cust {
     width: 100%;
   }
+  .cuts {
+    padding: 0;
+  }
   .resumes {
     margin-bottom: 10px;
     min-width: 250px;
@@ -930,6 +933,9 @@ input[type="submit"] {
   }
   .biggest .main {
     width: auto;
+  }
+  .cuts {
+    padding: 0;
   }
 }
 

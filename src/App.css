@@ -896,9 +896,26 @@ input[type="submit"] {
   .img-cont-cust {
     width: 100%;
   }
-  .cuts {
-    padding: 0;
+  .custs {
+    padding: 5px;
   }
+
+  .custs h2{
+    padding: 2px ;
+    width: 80%;
+  }
+
+  .img-cont-cust{
+    padding: 0;
+    width: 80%;
+  }
+
+  .custs img{
+    padding: 5px;
+    margin: 0;
+  }
+
+
   .resumes {
     margin-bottom: 10px;
     min-width: 250px;
@@ -934,7 +951,7 @@ input[type="submit"] {
   .biggest .main {
     width: auto;
   }
-  .cuts {
+  .custs {
     padding: 0;
   }
 }

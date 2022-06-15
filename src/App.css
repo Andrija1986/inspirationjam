@@ -629,6 +629,7 @@ body {
   padding: 5px;
   align-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 1rem;
 }
 
 .resumes h3 {
@@ -650,6 +651,7 @@ body {
   justify-content: space-around;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 1rem;
 }
 
 .contact-form h3 {
@@ -804,6 +806,152 @@ input[type="submit"] {
   margin: 5px;
   color: var(--dark_grayish_magenta);
 }
+/* --------------------------------------------------------*/
+/* ---------------------social-------------------------*/
+
+.shop-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--back-pale);
+}
+.shop-wrapper div {
+  width: 45%;
+  /* height: 300px; */
+  min-width: 300px;
+  overflow: hidden;
+  margin: 0.5rem;
+}
+
+.shop-div h2 {
+  font-size: 2.5rem;
+  width: fit-content;
+  margin: 10px;
+  border-bottom: solid black 1px;
+  color: #5a463f;
+}
+.shop-div h3 {
+  margin: 10px;
+  color: #3c353c;
+}
+.shop-div p {
+  margin: 10px;
+  color: #3c353c;
+  font-weight: bold;
+}
+
+.shop-btn {
+  margin: 10px;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fb9a17;
+}
+
+.shop-img-div {
+  background-image: url(../public/assets/shop1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* --------------------------------------------------------*/
+/* --------------------our team-------------------------*/
+
+.team {
+  margin-bottom: 2rem;
+}
+
+.our-team {
+  padding: 0.5rem;
+
+  background-image: url(../public/assets/orange-back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.our-team .team-card {
+  margin: 1rem;
+  width: 20%;
+  min-width: 200px;
+  min-height: 260px;
+  border-left: 1px rgba(128, 128, 128, 0.4) solid;
+  border-top: solid 1px rgba(128, 128, 128, 0.4);
+  box-shadow: 0px 0px 6px black;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.01);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our-team .team-card h3 {
+  color: #5a463f;
+  text-align: center;
+}
+.our-team .team-card p {
+  margin: 10px;
+  color: #5a463f;
+  text-align: center;
+}
+.our-team .team-card .img-team {
+  padding: 10px;
+  border-radius: 50%;
+  height: 150px;
+  width: 50%;
+  margin: 10px;
+  border: solid 2px #f46b45;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.our-team .three {
+  background-image: url(../public/assets/kbr2.jpg);
+}
+.our-team .one {
+  background-image: url(../public/assets/one.jpg);
+}
+.our-team .two {
+  background-image: url(../public/assets/two.jpg);
+}
+.our-team .four {
+  background-image: url(../public/assets/four.jpg);
+}
+.our-team .team-contact {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.our-team .team-icon {
+  color: #5a463f;
+  margin: 5px;
+}
+
+.team-info {
+  width: 100%;
+}
+
+.team-icon a {
+  color: #5a463f;
+}
+
+.team-head {
+  width: 100%;
+  text-align: center;
+  color: #5a463f;
+  padding: 10px;
+  border-bottom: solid 1px #5a463f;
+}
+
+
+
+
 /* --------------------------------------------------------*/
 /* --------------------media-query-------------------------*/
 
